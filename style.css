@@ -1,0 +1,81 @@
+body {
+	background-color: #eee;
+	font: 1em 'Open Sans', sans-serif;
+	color: #2c3e50;
+}
+
+#wrapper {
+	background-color: #fff;
+	margin: 10px auto;
+	padding-top: 20px;
+	max-width: 500px;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 20px #ddd;
+	border-radius: 5px;
+}
+
+#wrapper h1 {
+	font-family: 'Handlee', cursive;
+	text-align: center;
+}
+
+.items {
+	display: inline-block;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.items li {
+	padding: 10px 10px;
+	border-bottom: 1px dashed #ddd;
+	margin: 10px 0;
+	font-style: italic;
+}
+
+.items .item.done {
+	text-decoration: line-through;
+}
+
+.mark-done {
+	font-style: normal;
+	font-size: .9em;
+	display: inline-block;
+	float: right;
+	background-color: #95a5a6;
+	opacity: .7;
+	color: #fff;
+	border-radius: 2px;
+	padding: 4px;
+}
+
+.mark-done:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.new-item {
+	border: none;
+	width: 100%;
+	padding: 10px 10px;
+	font-style: italic;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+
+.new-item:focus {
+	outline: none;
+}
+
+.submit {
+	width: 100%;
+	border: 1px solid #ddd;
+	background-color: #3498db;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: 400;
+	color: #fff;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
